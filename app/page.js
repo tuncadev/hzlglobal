@@ -82,7 +82,7 @@ export default function HomePage() {
           </div>
       </section>
         <p className={"contact-info"}>
-            <a href="mailto:info@hzlglobal.com" target={"_blank"}>info@hzlglobal.com.ua</a>
+            <a href="mailto:info@hzlglobal.com" target={"_blank"}>info@hzlglobal.com</a>
             <a href="mailto:info@hzlglobal.com" target={"_blank"}>info@maruderm.com.ua</a>
         </p>
         <section>
