@@ -1,19 +1,56 @@
 1:"$Sreact.fragment"
-2:I[9766,[],""]
-3:I[8924,[],""]
-4:I[1959,[],"ClientPageRoot"]
-5:I[7402,["974","static/chunks/app/page-d8e7c8940c9ddbac.js"],"default"]
-8:I[4431,[],"OutletBoundary"]
-a:I[5278,[],"AsyncMetadataOutlet"]
-c:I[4431,[],"ViewportBoundary"]
-e:I[4431,[],"MetadataBoundary"]
-f:"$Sreact.suspense"
-11:I[7150,[],""]
+2:I[1402,["177","static/chunks/app/layout-9c70dd1b010f02ef.js"],""]
+7:I[7150,[],""]
 :HL["/_next/static/css/5fbd4e5bdf5330e7.css","style"]
-0:{"P":null,"b":"R_UmQXtjvIgE3aPuduoQX","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5fbd4e5bdf5330e7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L4",null,{"Component":"$5","searchParams":{},"params":{},"promises":["$@6","$@7"]}],null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
-6:{}
-7:"$0:f:0:1:2:children:1:props:children:0:props:params"
-d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-9:null
-b:{"metadata":[["$","title","0",{"children":"HZL Global"}],["$","meta","1",{"name":"description","content":"HZL Global landing page"}]],"error":null,"digest":"$undefined"}
-10:"$b:metadata"
+3:Tdb4,
+    (function () {
+      var localizedMeta = {"uk":{"lang":"uk","locale":"uk_UA","title":"HZL Global | Офіційний дистриб’ютор Maruderm в Україні","description":"HZL Global є офіційним дистриб’ютором косметики Maruderm в Україні. Запуск незабаром.","keywords":"HZL Global, Maruderm Україна, дистриб’ютор Maruderm, дистриб’ютор косметики в Україні, косметика Україна, оптова косметика Україна","ogDescription":"Офіційний дистриб’ютор косметики Maruderm в Україні. HZL Global запускається незабаром."},"en":{"lang":"en","locale":"en_US","title":"HZL Global | Official Maruderm Distributor in Ukraine","description":"HZL Global is the official distributor of Maruderm cosmetics in Ukraine. Launching soon.","keywords":"HZL Global, Maruderm Ukraine, Maruderm distributor, cosmetics distributor Ukraine, beauty products Ukraine, wholesale cosmetics Ukraine","ogDescription":"Official distributor of Maruderm cosmetics in Ukraine. HZL Global is launching soon."},"ru":{"lang":"ru","locale":"ru_RU","title":"HZL Global | Официальный дистрибьютор Maruderm в Украине","description":"HZL Global является официальным дистрибьютором косметики Maruderm в Украине. Скоро запуск.","keywords":"HZL Global, Maruderm Украина, дистрибьютор Maruderm, дистрибьютор косметики в Украине, косметика Украина, оптовая косметика Украина","ogDescription":"Официальный дистрибьютор косметики Maruderm в Украине. HZL Global скоро запускается."},"tr":{"lang":"tr","locale":"tr_TR","title":"HZL Global | Ukrayna'da Resmi Maruderm Distribütörü","description":"HZL Global, Maruderm kozmetiklerinin Ukrayna'daki resmi distribütörüdür. Çok yakında yayında.","keywords":"HZL Global, Maruderm Ukrayna, Maruderm distribütörü, Ukrayna kozmetik distribütörü, Ukrayna güzellik ürünleri, toptan kozmetik Ukrayna","ogDescription":"Ukrayna'da Maruderm kozmetiklerinin resmi distribütörü. HZL Global çok yakında yayında."}};
+      var browserLanguage = (navigator.language || "en").toLowerCase();
+      var languageCode = Object.keys(localizedMeta).find(function (code) {
+        return browserLanguage.indexOf(code) === 0;
+      }) || "en";
+      var activeMeta = localizedMeta[languageCode];
+      var html = document.documentElement;
+
+      html.lang = activeMeta.lang;
+      html.dataset.initialLang = activeMeta.lang;
+
+      document.title = activeMeta.title;
+
+      var applyContent = function (selector, value) {
+        var element = document.head.querySelector(selector);
+
+        if (element) {
+          element.setAttribute("content", value);
+        }
+      };
+
+      applyContent('#meta-description', activeMeta.description);
+      applyContent('#meta-keywords', activeMeta.keywords);
+      applyContent('#meta-language', activeMeta.lang);
+      applyContent('#og-title', activeMeta.title);
+      applyContent('#og-description', activeMeta.ogDescription);
+      applyContent('#og-locale', activeMeta.locale);
+      applyContent('#twitter-title', activeMeta.title);
+      applyContent('#twitter-description', activeMeta.description);
+    })();
+  0:{"P":null,"b":"kqMOzQb_-fCf1ZZYyjZLG","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5fbd4e5bdf5330e7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","title",null,{"children":"HZL Global | Official Maruderm Distributor in Ukraine"}],["$","meta",null,{"id":"meta-description","name":"description","content":"HZL Global is the official distributor of Maruderm cosmetics in Ukraine. Launching soon."}],["$","meta",null,{"id":"meta-keywords","name":"keywords","content":"HZL Global, Maruderm Ukraine, Maruderm distributor, cosmetics distributor Ukraine, beauty products Ukraine, wholesale cosmetics Ukraine"}],["$","meta",null,{"id":"meta-language","name":"language","content":"en"}],["$","meta",null,{"property":"og:type","content":"website"}],["$","meta",null,{"property":"og:url","content":"https://hzlglobal.com/"}],["$","meta",null,{"property":"og:site_name","content":"HZL Global"}],["$","meta",null,{"id":"og-title","property":"og:title","content":"HZL Global | Official Maruderm Distributor in Ukraine"}],["$","meta",null,{"id":"og-description","property":"og:description","content":"Official distributor of Maruderm cosmetics in Ukraine. HZL Global is launching soon."}],["$","meta",null,{"property":"og:image","content":"https://hzlglobal.com/hzl-global-logo.png"}],["$","meta",null,{"property":"og:image:width","content":"342"}],["$","meta",null,{"property":"og:image:height","content":"271"}],["$","meta",null,{"property":"og:image:alt","content":"HZL Global logo"}],["$","meta",null,{"id":"og-locale","property":"og:locale","content":"en_US"}],["$","meta",null,{"property":"og:locale:alternate","content":"uk_UA"}],["$","meta",null,{"property":"og:locale:alternate","content":"ru_RU"}],["$","meta",null,{"property":"og:locale:alternate","content":"tr_TR"}],["$","meta",null,{"name":"twitter:card","content":"summary_large_image"}],["$","meta",null,{"id":"twitter-title","name":"twitter:title","content":"HZL Global | Official Maruderm Distributor in Ukraine"}],["$","meta",null,{"id":"twitter-description","name":"twitter:description","content":"HZL Global is the official distributor of Maruderm cosmetics in Ukraine. Launching soon."}],["$","meta",null,{"name":"twitter:image","content":"https://hzlglobal.com/hzl-global-logo.png"}]]}],["$","body",null,{"suppressHydrationWarning":true,"children":[["$","$L2",null,{"id":"language-meta-bootstrap","strategy":"beforeInteractive","children":"$3"}],"$L4"]}]]}]]}],{"children":["__PAGE__","$L5",{},null,false]},null,false],"$L6",false]],"m":"$undefined","G":["$7",[]],"s":false,"S":true}
+8:I[9766,[],""]
+9:I[8924,[],""]
+a:I[1959,[],"ClientPageRoot"]
+b:I[7402,["974","static/chunks/app/page-20a5487753e7735d.js"],"default"]
+e:I[4431,[],"OutletBoundary"]
+10:I[5278,[],"AsyncMetadataOutlet"]
+12:I[4431,[],"ViewportBoundary"]
+14:I[4431,[],"MetadataBoundary"]
+15:"$Sreact.suspense"
+4:["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+5:["$","$1","c",{"children":[["$","$La",null,{"Component":"$b","searchParams":{},"params":{},"promises":["$@c","$@d"]}],null,["$","$Le",null,{"children":["$Lf",["$","$L10",null,{"promise":"$@11"}]]}]]}]
+6:["$","$1","h",{"children":[null,[["$","$L12",null,{"children":"$L13"}],null],["$","$L14",null,{"children":["$","div",null,{"hidden":true,"children":["$","$15",null,{"fallback":null,"children":"$L16"}]}]}]]}]
+c:{}
+d:"$5:props:children:0:props:params"
+13:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+f:null
+17:I[622,[],"IconMark"]
+11:{"metadata":[["$","meta","0",{"name":"robots","content":"index, follow"}],["$","meta","1",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","2",{"name":"category","content":"business"}],["$","link","3",{"rel":"canonical","href":"https://hzlglobal.com"}],["$","link","4",{"rel":"shortcut icon","href":"/favicon.ico"}],["$","link","5",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon"}],["$","$L17","6",{}]],"error":null,"digest":"$undefined"}
+16:"$11:metadata"
