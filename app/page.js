@@ -95,10 +95,10 @@ export default function HomePage() {
       <section className="hero-card" aria-label="HZL Global coming soon">
         <img
           className="brand-logo"
-          src="/logo.png"
+          src="/hzl-global-logo.png"
           alt="HZL Global logo"
-          width="769"
-          height="769"
+          width="342"
+          height="271"
         />
         <h1 className="brand-title">HZL GLOBAL</h1>
         <p className={`brand-subtitle text-switch ${isVisible ? "is-visible" : ""}`}>
